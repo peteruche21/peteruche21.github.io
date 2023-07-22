@@ -21,7 +21,9 @@ function App() {
           </p>
           <div className="items-center justify-center gap-x-3 space-y-5 sm:flex sm:space-y-0">
             <a
-              href="https://tinyurl.com/anyaogu_cv_07_23"
+              href="https://tinyurl.com/anyaogu-cv-07-23"
+              target="_blank"
+              rel="noreferrer"
               className="block py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
             >
               CV

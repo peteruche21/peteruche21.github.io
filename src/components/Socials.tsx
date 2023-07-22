@@ -16,7 +16,7 @@ const Socials = () => {
 
   function renderSocials(): JSX.Element[] {
     return socials.map((social, idx) => {
-      return <SocialIcon url={social} target="_blank" key={idx} style={style} />;
+      return <SocialIcon url={social} target="_blank" rel="noreferrer" key={idx} style={style} />;
     });
   }
 
